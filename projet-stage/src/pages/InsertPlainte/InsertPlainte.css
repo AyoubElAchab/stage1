@@ -1,0 +1,99 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+h1{
+  color: #0b294d;
+  margin:50px 0;
+}
+
+/* CSS */
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) 190px;
+  position: relative;
+  text-decoration: none; 
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+
+.input {
+  background-color: #0b294d;
+  border: none;
+  border-radius: 2px;
+  width: 250px;
+  padding: 12px;
+  font-size: 20px;
+  margin-left: 15px;
+}
+.plain{
+  color: #f26531;
+}
+th{
+  float: inline-start;
+}
+.list {
+  color:#0b294d;
+  display: flex;
+  margin: 30px;
+  margin-top: 150px;
+  padding: 30px;
+  padding-top: 20px;
+  border-radius: 3px;
+  width: 500px;
+  justify-content: center;
+
+}
+td{
+  padding:6px;
+}
+.buttoninput{
+  border-radius: 50px;
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  background-color: goldenrod;
+}
+.buttoninput:hover{
+  border: 2px solid white;
+}
+

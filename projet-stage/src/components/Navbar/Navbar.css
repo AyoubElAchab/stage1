@@ -1,0 +1,23 @@
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}  
+
+.linav{
+    height: 130px;
+    
+}
+²
+.ulnav a,.allnav a{
+    color: #fff;
+    margin-left: 0;
+}
+.ulnav li a{
+    padding: 14px 16px;
+}
+
+.ulnav li a:hover{
+  
+  background-color:#f26531 ;
+    color:#fff;
+}
